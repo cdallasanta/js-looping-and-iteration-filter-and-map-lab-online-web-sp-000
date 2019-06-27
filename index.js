@@ -8,6 +8,6 @@ function driversWithRevenueOver(driversArr, num) {
 function driverNamesWithRevenueOver(driversArr, num) {
   const newArr = driversWithRevenueOver(driversArr, num);
   return newArr.map(function(driverObj){
-    driverObj.name;
+    return driverObj.name;
   });
 };
