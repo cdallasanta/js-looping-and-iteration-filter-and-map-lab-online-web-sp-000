@@ -1,6 +1,6 @@
 // Code your solution here:
-function driversWithRevenueOver(driversArr, revenue) {
+function driversWithRevenueOver(driversArr, num) {
   return driversArr.filter(function(driverObj) {
-    driverObj.revenue
+    return driverObj.revenue > num;
   });
 };
