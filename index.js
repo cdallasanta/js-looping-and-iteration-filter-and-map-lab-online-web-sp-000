@@ -6,9 +6,10 @@ function driversWithRevenueOver(driversArr, num) {
 };
 
 function driverNamesWithRevenueOver(driversArr, num) {
-  return driversArr.map(function(driverObj){
-    if (driverObj.revenue > num){
-      return driverObj.name;
-    };
+  const newArr = driversArr.filter(function(driverObj){
+    driverObj.revenue > num;
+  });
+  return newArr.map(function(driverObj){
+    driverObj.name;
   });
 };
