@@ -13,8 +13,8 @@ function driverNamesWithRevenueOver(driversArr, num) {
 };
 
 function exactMatch(arr, matchObj){
+      debugger;
   return arr.filter(function(driver){
-    debugger;
     return;
   });
 };
