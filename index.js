@@ -18,4 +18,6 @@ function exactMatch(arr, matchObj){
   });
 };
 
-function 
+function exactMatchToList() {
+
+};
