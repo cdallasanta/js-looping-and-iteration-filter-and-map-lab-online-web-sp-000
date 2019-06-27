@@ -18,6 +18,8 @@ function exactMatch(arr, matchObj){
   });
 };
 
-function exactMatchToList() {
-
+function exactMatchToList(arr, matchObj) {
+  return exactMatch(arr, matchObj).map(function(driver){
+    return driver.name;
+  });
 };
