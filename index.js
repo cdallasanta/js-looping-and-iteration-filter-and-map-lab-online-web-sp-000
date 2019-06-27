@@ -9,8 +9,6 @@ function driverNamesWithRevenueOver(driversArr, num) {
   return driversArr.map(function(driverObj){
     if (driverObj.revenue > num){
       return driverObj.name;
-    } else {
-      return null;
     };
   });
 };
